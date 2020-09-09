@@ -9,9 +9,14 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.atomic.AtomicBoolean
 
+// public keys
 internal const val KEY_TOKEN = "token"
+internal const val KEY_PASSWORD = "password"
+
+// private keys
 internal const val KEY_TODO = "widget_todo"
 
+internal const val ACTION_NONE = "action_none"
 internal const val ACTION_DONE = "action_done"
 internal const val ACTION_DELETE = "action_delete"
 internal const val ACTION_SKIP = "action_skip"
